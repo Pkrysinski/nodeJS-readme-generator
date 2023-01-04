@@ -7,7 +7,7 @@ The purpose of this weather dashboard app is to display to the user current weat
 ## Walkthrough Video
 
 Link to walkthrough video...
-TODO: video link goes here!
+https://drive.google.com/file/d/1O22ay36cHycw27GzZvOhYo8QZ_NjxBTT/view
 
 ## Acceptence Criteria Notes
 
