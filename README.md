@@ -4,9 +4,10 @@
 
 The purpose of this weather dashboard app is to display to the user current weather as well as a 5-day outlook for any given city searched.  The application will be built utilizing server-side API's; specifically the "5 Day Weather Forecast" API provided by api.openweathermap.org to get live data from weather posts around the United States and render the information to the user viewing the Weather Dashboard App.
 
-## Link to Deployed Application
+## Walkthrough Video
 
-![Alt text](https://github.com/Pkrysinski/weather-dashboard-app/blob/main/assets/images/github-screenshot.PNG)
+Link to walkthrough video...
+TODO: video link goes here!
 
 ## Acceptence Criteria Notes
 
