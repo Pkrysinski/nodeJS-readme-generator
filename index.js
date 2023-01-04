@@ -77,6 +77,12 @@ inquirer
     message: 'What is your email address?',
     name: 'emailAddress',
     },       
+    {
+    type: 'list',
+    message: 'Please select a license...',
+    name: 'licenseInfo',
+    choices: ['MIT', 'Apache License 2.0', 'None'],
+    },       
   ])
   .then((response) => {
     const readmePageContent = generateHTML(response);
