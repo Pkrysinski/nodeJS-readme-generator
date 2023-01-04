@@ -18,7 +18,7 @@ You need to download a copy of the repo and install the NPM inquirer package, sp
 Please feel free to create a new README.md file whenever you need a new one for a project!
 
 ## License
-MIT
+Apache License 2.0
 
 ## Contributing
 You must make sure that if you contribute to a project, you must be fully there for your team members.
