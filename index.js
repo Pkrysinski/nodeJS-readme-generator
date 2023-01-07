@@ -1,7 +1,9 @@
+// Initialize variables for Inquirer and File System
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const generateHTML = ({ projectTitle, description, installInstructions, usageInfo, licenseInfo, contributionGuidelines, testInstructions, userName, emailAddress}) =>
+// Take results from inquirer user question prompts and render them to the README template based on template literals
+const generateREADME = ({ projectTitle, description, installInstructions, usageInfo, licenseInfo, contributionGuidelines, testInstructions, userName, emailAddress}) =>
 `# ${projectTitle}
 
 ## Description
@@ -35,6 +37,7 @@ Link to GitHub Repo: https://github.com/Pkrysinski/${userName}
 Please reach out to me at ${emailAddress}
 `;
 
+// User Inquirer to prompt user (in terminal via NodeJS) for answers based on questions about subjects in the standard README file template
 inquirer
   .prompt([
     {
@@ -84,10 +87,9 @@ inquirer
     choices: ['MIT', 'Apache License 2.0', 'None'],
     },       
   ])
+  // Once user prompts have been completed, pass the object to the generateREADME function to build the README file based on the answers given.
   .then((response) => {
-    const readmePageContent = generateHTML(response);
+    const readmePageContent = generateREADME(response);
     fs.writeFile('newREADME.md', readmePageContent, (err) =>
     err ? console.error(err) : console.log('Success!'))
-  }
-
-  );
+  });
