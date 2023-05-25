@@ -2,7 +2,9 @@
 
 ## Purpose
 
-The purpose of this weather dashboard app is to display to the user current weather as well as a 5-day outlook for any given city searched.  The application will be built utilizing server-side API's; specifically the "5 Day Weather Forecast" API provided by api.openweathermap.org to get live data from weather posts around the United States and render the information to the user viewing the Weather Dashboard App.
+When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
+You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 
 ## Walkthrough Video
 
